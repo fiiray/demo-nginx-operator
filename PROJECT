@@ -1,0 +1,9 @@
+domain: fii.org
+layout:
+- go.kubebuilder.io/v3
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
+projectName: kubernetes-operators
+repo: github.com/fiiray/demo-nginx-operator
+version: "3"
